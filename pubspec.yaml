@@ -1,0 +1,15 @@
+name: molecule_energy
+description: Energy calculations for molecules.
+version: 0.0.1
+repository: https://github.com/afstanton/molecule_energy
+
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  molecule_core: ^0.0.1
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
